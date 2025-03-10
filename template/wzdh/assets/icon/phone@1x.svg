@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#fff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+    document.oncontextmenu=new Function("event.returnValue=false"); //禁止右键功能
+    document.onselectstart=new Function("event.returnValue=false"); //禁止选择文字
+    </script>
+    <title>无法访问此网站</title>
+
+
+    <style>
+        /*! CSS Used from: Embedded */
+a{color:var(--link-color);}
+body{--background-color:#fff;--error-code-color:var(--google-gray-700);--google-blue-100:rgb(210, 227, 252);--google-blue-300:rgb(138, 180, 248);--google-blue-600:rgb(26, 115, 232);--google-blue-700:rgb(25, 103, 210);--google-gray-100:rgb(241, 243, 244);--google-gray-300:rgb(218, 220, 224);--google-gray-500:rgb(154, 160, 166);--google-gray-50:rgb(248, 249, 250);--google-gray-600:rgb(128, 134, 139);--google-gray-700:rgb(95, 99, 104);--google-gray-800:rgb(60, 64, 67);--google-gray-900:rgb(32, 33, 36);--heading-color:var(--google-gray-900);--link-color:rgb(88, 88, 88);--popup-container-background-color:rgba(0, 0, 0, .65);--primary-button-fill-color-active:var(--google-blue-700);--primary-button-fill-color:var(--google-blue-600);--primary-button-text-color:#fff;--quiet-background-color:rgb(247, 247, 247);--secondary-button-border-color:var(--google-gray-500);--secondary-button-fill-color:#fff;--secondary-button-hover-border-color:var(--google-gray-600);--secondary-button-hover-fill-color:var(--google-gray-50);--secondary-button-text-color:var(--google-gray-700);--small-link-color:var(--google-gray-700);--text-color:var(--google-gray-700);background:var(--background-color);color:var(--text-color);word-wrap:break-word;}
+html{-webkit-text-size-adjust:100%;font-size:125%;}
+.icon{background-repeat:no-repeat;background-size:100%;}
+@media (prefers-color-scheme: dark){
+body{--background-color:var(--google-gray-900);--error-code-color:var(--google-gray-500);--heading-color:var(--google-gray-500);--link-color:var(--google-blue-300);--primary-button-fill-color-active:rgb(129, 162, 208);--primary-button-fill-color:var(--google-blue-300);--primary-button-text-color:var(--google-gray-900);--quiet-background-color:var(--background-color);--secondary-button-border-color:var(--google-gray-700);--secondary-button-fill-color:var(--google-gray-900);--secondary-button-hover-fill-color:rgb(48, 51, 57);--secondary-button-text-color:var(--google-blue-300);--small-link-color:var(--google-blue-300);--text-color:var(--google-gray-500);}
+}
+/*! CSS Used from: Embedded */
+button{border:0;border-radius:4px;box-sizing:border-box;color:var(--primary-button-text-color);cursor:pointer;float:right;font-size:.875em;margin:0;padding:8px 16px;transition:box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1);user-select:none;}
+.neterror button{background:var(--primary-button-fill-color);}
+button:active{background:var(--primary-button-fill-color-active);outline:0;}
+.error-code{color:var(--error-code-color);font-size:.8em;text-transform:uppercase;margin-top:12px;}
+h1{color:var(--heading-color);font-size:1.6em;font-weight:normal;line-height:1.25em;margin-bottom:16px;}
+.icon{height:72px;margin:0 0 40px;width:72px;}
+.interstitial-wrapper{box-sizing:border-box;font-size:1em;line-height:1.6em;margin:14vh auto 0;max-width:600px;width:100%;}
+#main-message > p{display:inline;}
+.nav-wrapper{margin-top:51px;}
+.nav-wrapper::after{clear:both;content:'';display:table;width:100%;}
+@media (max-width: 700px){
+.interstitial-wrapper{padding:0 10%;}
+}
+@media (max-width: 420px){
+button{float:none;font-size:.825em;font-weight:500;margin:0;width:100%;}
+button{padding:16px 24px;}
+.interstitial-wrapper{padding:0 5%;}
+.nav-wrapper{margin-top:30px;}
+}
+@media (min-width: 240px) and (max-width: 420px) and     (min-height: 401px),     (min-width: 421px) and (min-height: 240px) and     (max-height: 560px){
+body .nav-wrapper{background:var(--background-color);bottom:0;box-shadow:0 -12px 24px var(--background-color);left:0;margin:0 auto;max-width:736px;padding-left:24px;padding-right:24px;position:fixed;right:0;width:100%;z-index:2;}
+.interstitial-wrapper{max-width:736px;}
+#main-content{padding-bottom:40px;}
+}
+@media (max-width: 420px) and (orientation: portrait),     (max-height: 560px){
+body{margin:0 auto;}
+button{font-family:Roboto-Regular, Helvetica;font-size:.933em;margin:6px 0;transform:translatez(0);}
+.nav-wrapper{box-sizing:border-box;padding-bottom:8px;width:100%;}
+h1{font-size:1.5em;margin-bottom:8px;}
+.icon{margin-bottom:5.69vh;}
+.interstitial-wrapper{box-sizing:border-box;margin:7vh auto 12px;padding:0 24px;position:relative;}
+.interstitial-wrapper p{font-size:.95em;line-height:1.61em;margin-top:8px;}
+#main-content{margin:0;transition:opacity 100ms cubic-bezier(0.4, 0, 0.2, 1);}
+.suggested-left > #control-buttons{float:none;margin:0;}
+}
+@media (min-width: 421px) and (min-height: 500px) and (max-height: 560px){
+.interstitial-wrapper{margin-top:10vh;}
+}
+@media (min-height: 400px) and (orientation: portrait){
+.interstitial-wrapper{margin-bottom:145px;}
+}
+@media (min-height: 299px){
+.nav-wrapper{padding-bottom:16px;}
+}
+@media (min-height: 500px) and (max-height: 650px) and (max-width: 414px) and     (orientation: portrait){
+.interstitial-wrapper{margin-top:7vh;}
+}
+@media (min-height: 650px) and (max-width: 414px) and (orientation: portrait){
+.interstitial-wrapper{margin-top:10vh;}
+}
+@media (max-height: 400px) and (orientation: portrait),     (max-height: 239px) and (orientation: landscape),     (max-width: 419px) and (max-height: 399px){
+.interstitial-wrapper{display:flex;flex-direction:column;margin-bottom:0;}
+#main-content{flex:1 1 auto;order:0;}
+.nav-wrapper{flex:0 1 auto;margin-top:8px;order:1;padding-left:0;padding-right:0;position:relative;width:100%;}
+button{padding:16px 24px;}
+}
+@media (max-width: 239px) and (orientation: portrait){
+.nav-wrapper{padding-left:0;padding-right:0;}
+}
+/*! CSS Used from: Embedded */
+h1{margin-top:0;word-wrap:break-word;}
+h1 span{font-weight:500;}
+a{text-decoration:none;}
+.icon{-webkit-user-select:none;display:inline-block;}
+.icon-generic{content:-webkit-image-set(                 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABIAQMAAABvIyEEAAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAENJREFUeF7tzbEJACEQRNGBLeAasBCza2lLEGx0CxFGG9hBMDDxRy/72O9FMnIFapGylsu1fgoBdkXfUHLrQgdfrlJN1BdYBjQQm3UAAAAASUVORK5CYII=) 1x,                 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQAQMAAADdiHD7AAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAFJJREFUeF7t0cENgDAMQ9FwYgxG6WjpaIzCCAxQxVggFuDiCvlLOeRdHR9yzjncHVoq3npu+wQUrUuJHylSTmBaespJyJQoObUeyxDQb3bEm5Au81c0pSCD8HYAAAAASUVORK5CYII=) 2x);}
+#suggestions-list a{color:var(--google-blue-600);}
+#suggestions-list p{margin-block-end:0;}
+#suggestions-list ul{margin-top:0;}
+[jscontent=hostName]{overflow-wrap:break-word;}
+@media (max-width: 640px), (max-height: 640px){
+h1{margin:0 0 15px;}
+}
+.suggested-left > #control-buttons{float:left;}
+#buttons::after{clear:both;content:'';display:block;width:100%;}
+@media (max-width: 420px){
+.suggested-left > #control-buttons{float:none;}
+}
+@media (max-height: 350px){
+h1{margin:0 0 15px;}
+.interstitial-wrapper{margin-top:5%;}
+.nav-wrapper{margin-top:30px;}
+}
+@media (min-width: 420px) and (max-width: 736px) and     (min-height: 240px) and (max-height: 420px) and     (orientation: landscape){
+.interstitial-wrapper{margin-bottom:100px;}
+}
+@media (max-width: 240px){
+button{padding-inline-end:12px;padding-inline-start:12px;}
+.interstitial-wrapper{overflow:inherit;padding:0 8px;}
+}
+@media (max-width: 120px){
+button{width:auto;}
+}
+@media (prefers-color-scheme: dark){
+.icon{filter:invert(1);}
+#suggestions-list a{color:var(--link-color);}
+}
+    </style>
+    <script>
+    function reloadButtonClick() {
+        window.location.reload();
+    }
+    </script>
+
+
+
+</head>
+<body id="t" class="neterror" style="font-family: 'Segoe UI',Arial,'Microsoft Yahei',sans-serif; font-size: 75%"
+      jstcache="0">
+<div id="main-frame-error" class="interstitial-wrapper" jstcache="0">
+    <div id="main-content" jstcache="0">
+        <div class="icon icon-generic" jstcache="0"></div>
+        <div id="main-message" jstcache="0">
+            <h1 jstcache="0">
+                <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="9">无法访问此网站</span>
+            </h1>
+            <div id="error-information-popup-container" jstcache="0">
+                <div id="error-information-popup" jstcache="0">
+                    <div id="error-information-popup-box" jstcache="0">
+                        <div id="error-information-popup-content" jstcache="0">
+                            <div id="suggestions-list" style=""
+                                 jsdisplay="(suggestionsSummaryList &amp;&amp; suggestionsSummaryList.length)"
+                                 jstcache="16">
+                                <p jsvalues=".innerHTML:suggestionsSummaryListHeader" jstcache="18">请试试以下办法：</p>
+                                <ul jsvalues=".className:suggestionsSummaryList.length == 1 ? 'single-suggestion' : ''"
+                                    jstcache="19" class="">
+                                    <li><a href="#">检查网络连接</a></li>
+                                    <li><a href="#">检查代理服务器、防火墙和 DNS 配置</a></li>
+                                    <li><a href="#">运行 Windows 网络诊断</a></li>
+                                </ul>
+                            </div>
+                            <div class="error-code" jscontent="errorCode" jstcache="17">ERR_NAME_NOT_RESOLVED</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="buttons" class="nav-wrapper suggested-left" jstcache="0">
+        <div id="control-buttons" jstcache="0">
+            <button id="reload-button" class="blue-button text-button" onclick="reloadButtonClick();"
+                    jsselect="reloadButton" jsvalues=".url:reloadUrl" jscontent="msg" jstcache="5">重新加载
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
