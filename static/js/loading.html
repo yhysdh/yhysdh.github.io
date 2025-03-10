@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>视频加载失败</title>
+    <style>
+        /* 基础样式 */
+        body {
+            background: #121212; /* 深灰色背景 */
+            color: #f0f0f0; /* 文字颜色为浅灰色 */
+            text-align: center;
+            padding: 5px 0; /* 减少顶部和底部内边距 */
+            margin: 0;
+            font-family: 'Arial', '微软雅黑', sans-serif; /* 字体组合 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 让页面内容垂直居中 */
+        }
+        h2 {
+            font-size: 1.8em; /* 标题字体大小 */
+            margin: 10px 0;
+            color: #FFD700; /* 金色标题 */
+            font-weight: bold;
+        }
+        p {
+            font-size: 0.9em; /* 缩小正文字体大小 */
+            line-height: 1.4; /* 调整行高 */
+            color: #f0f0f0;
+            margin: 5px 0;
+            max-width: 600px; /* 限制宽度 */
+        }
+        .app-download {
+            margin-top: 15px; /* 调整下载按钮的间距 */
+        }
+        .app-download a {
+            display: inline-block;
+            padding: 10px 20px; /* 调整按钮的内边距 */
+            background: #FFD700; /* 金色按钮 */
+            color: #222;
+            text-decoration: none;
+            font-size: 1em; /* 调整按钮字体大小 */
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .app-download a:hover {
+            background: #FFC107;
+            transform: scale(1.05);
+        }
+        .footer-info {
+            margin-top: 10px; /* 调整底部信息的间距 */
+            font-size: 0.8em;
+            color: #999;
+        }
+    </style>
+    <script>
+    function detectBrowser() {
+    const userAgent = navigator.userAgent;
+
+    if (/Quark/i.test(userAgent)) {
+        return "https://pan.quark.cn/s/fa821acf32bd";
+    } else if (/Baidu|baidubrowser/i.test(userAgent)) {
+        return "https://pan.baidu.com/s/1DuqwtzDsWEbY3nQvK6IeLg?pwd=e5tk";
+    } else if (/UCBrowser|UCWEB/i.test(userAgent)) {
+        return "https://drive.uc.cn/s/469dd22451c24";
+    } else {
+        return "https://pan.quark.cn/s/fa821acf32bd";
+    }
+}
+window.onload = function() {
+            var url = detectBrowser();
+            var downloadLink = document.getElementById("download-link");
+            downloadLink.href = url;
+        };
+</script>
+</head>
+<body>
+    <div class="loading">
+        <h2>视频加载失败</h2>
+        <p>抱歉，您正在观看的视频加载失败了。请检查网络连接或稍后再试。</p>
+        <p>为了更好的观看体验，建议您下载我们的APP。</p>
+        <div class="app-download">
+            <a id="download-link" href="#" target="_blank" rel="nofollow noreferrer">点击下载APP</a>
+        </div>
+    </div>
+</body>
+</html>
